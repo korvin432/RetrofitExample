@@ -8,7 +8,6 @@ public class Comment {
     private int id;
     private String name;
     private String email;
-
     @SerializedName("body")
     private String text;
 
